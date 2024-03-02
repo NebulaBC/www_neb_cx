@@ -24,7 +24,7 @@ Once I was at a good pausing point in my work, I went to SSH into my server to r
 
 In total, I lost:
 
-- All of my websites are associated with the NebulaBC username.
+- All of my websites that were associated with the NebulaBC username.
 - All of the data from my git server that was not synced locally.
 - A few Minecraft and other assorted game servers, a portion of which were not backed up anywhere,.
 - The database for my image server (the images are stored in S3).
