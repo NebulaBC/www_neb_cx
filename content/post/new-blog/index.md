@@ -2,6 +2,12 @@
 title: "What happened to the old neb.cx?"
 description: My servers disappeared overnight.
 slug: new-blog
+categories:
+    - Server hosting
+tags:
+    - Oracle
+    - Data loss
+    - Blog
 date: 2024-03-02T16:34:42Z
 image: cover.png
 hidden: false
