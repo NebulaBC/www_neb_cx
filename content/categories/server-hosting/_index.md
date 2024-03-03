@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Server Hosting
+description: Posts relating to the act of server hosting.
 image:
 
 # Badge style

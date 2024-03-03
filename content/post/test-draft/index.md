@@ -1,12 +1,9 @@
 ---
 title: "Test Draft"
 description: 
+slug: test-draft
 date: 2024-03-03T03:44:51Z
-image: 
-math: 
-license: 
 hidden: false
-comments: true
 draft: true
 ---
 
