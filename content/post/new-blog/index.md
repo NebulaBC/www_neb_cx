@@ -7,7 +7,6 @@ categories:
 tags:
     - Oracle
     - Data loss
-    - Blog
 date: 2024-03-02T16:34:42Z
 image: cover.png
 hidden: false

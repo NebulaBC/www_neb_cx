@@ -3,7 +3,6 @@ title: "100 days to offload"
 description: I'm attempting a challenge
 slug: starting-100-days-to-offload
 tags:
-    - Blog
     - 100DaysToOffload
 categories:
     - Meta
