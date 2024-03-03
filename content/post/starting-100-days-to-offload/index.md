@@ -2,11 +2,11 @@
 title: "100 days to offload"
 description: I'm going to be starting this \"challenge\".
 slug: starting-100-days-to-offload
-date: 2024-03-03T03:44:51Z
 tags:
-	- Blog
+    - Blog
 categories:
     - Meta
+date: 2024-03-03T03:44:51Z
 hidden: true
 draft: true
 ---
