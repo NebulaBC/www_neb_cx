@@ -1,10 +1,10 @@
 ---
 title: "100 days to offload"
 description: I'm attempting a challenge
-slug: 
-
+slug: starting-100-days-to-offload
 tags:
     - Blog
+    - #100DaysToOffload
 categories:
     - Meta
 date: 2024-03-03T03:44:51Z
