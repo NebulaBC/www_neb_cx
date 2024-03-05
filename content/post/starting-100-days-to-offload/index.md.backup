@@ -1,21 +1,12 @@
 ---
-title: "100 days to offload"
-description: I'm attempting a challenge
-slug: starting-100-days-to-offload
+title: "Github Pages... SourceHut Pag"
+description: Should I get pro?
+slug: i-hate-github-but-it-feels-so-good
 tags:
-    - Blog
     - 100DaysToOffload
-categories:
-    - Meta
-date: 2024-03-03T03:44:51Z
+date: 2024-03-04T21:39:25Z
 hidden: false
 draft: false
 ---
 
-#100DaysToOffload is a novel challenge for bloggers, created by [Kev Quirk](https://kevquirk.com), in which you try to make 100 blog posts within a year. This is quite difficult, but I have an idea that it may be the push I need for me to actually keep this blog active. I think it might help with my writing skills too.
-
-A while back I was browsing Mastodon and ran into 100 days to offload. I thought that it looked quite interesting, so I bookmarked it and left it dormant. Just recently I was going through all of my bookmarks and rediscovered it. Now seeing that it still seems worthwhile to me, I'm going to give it a shot this time.
-
-If you read my post [3/2/24 - What happened to the old neb.cx?](https://www.neb.cx/p/new-blog/), you'd know that I had a technical disaster and lost my entire website and blog along with it. I think this may actually end up being an opportunity to review what software I use, and how I use it. For now, this will likely be the topic of my posts.
-
-I need a lot of work done to get my websites and infrastructure back to a spot that I am content with, so hopefully I can manage to take this blog (and you, reader) along for the ride.
+I've been using Github Pages to host this site for the past few days. It's been going pretty good to say the least, I love the workflow of pushing a commit to git and having an action automatically re-build my blog. The only hang up is *drafts*. I like writing blog posts, but to do that, I have to make a few drafts of everything (even this post). Now, this is just fine, and when I used to do drafts for my blog, I'd just put them on my server since I edited everything with vim over ssh and served the site through nginx. The problem arrises with the fact that people can look at the Github repo for my site. This means that all of my drafts are catalogued through git, and viewable forever. With this restriction it means that my only alternative is keeping my work local on my computer until I push it. The problem with this is that I have multiple computers and laptops, and I do not want to keep myself to only editing in one location. So... the solution is easy... just get Github pro and host the site from pages on a private repo? Not quite. I ***hate*** Github, and am not happy to be using them in the slightest. I have been running my own git server through Gitea for over 2 years until all of my services on neb.cx came crashing down. Most of my git stuff was synced to my PC, but for a few days I just had to use Github for anything I was working on until I could get a server set up. This site moved to Github, and the CI+Pages is a wonderful solution for me. I've already set up a new git server (with Forgejo this time), but I do not have any sort of CI/Pages solution. I do not wish to give money to Github, and I also do not wish to have my drafts public. My only solution is to suck it up and deal with them being public, or I can try to find a new service that does the same thing. I've had my eye on SourceHut for who knows how long to move my git repos to, but it requires some extra figuring out, since I've never worked with it before. I also have the option of setting up a git repo on my server itself, in a directory that will be served, and then setting up a cron job to build the hugo site. I don't quite like that solution since it seems clunky and takes time to update. If anyone else has any more suggestions, please shoot me an email. I think for 
