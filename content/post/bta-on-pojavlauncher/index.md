@@ -27,7 +27,8 @@ You are also able to use a JitStreamer server, and while more convenient on AltS
 For this install guide you will need a pre-built BTA instance for Pojav. This uses the same folder/zip regardless of platform.
 This section will be updated with new BTA releases on a regular basis.
 
-[Download 7.2_01](https://files.catbox.moe/wt9ycx.zip) (Latest)  
+[Download 7.3 Pre-1](https://files.catbox.moe/pafsuq.zip) (Latest)  
+[Download 7.2_01](https://files.catbox.moe/wt9ycx.zip)  
 [Download 1.7.7.0_02](https://files.catbox.moe/igo2ib.zip)  
 [Download 1.7.7.0_01](https://files.catbox.moe/hedzs5.zip)  
 [Download 1.7.7.0](https://files.catbox.moe/e0zu1a.zip)  
