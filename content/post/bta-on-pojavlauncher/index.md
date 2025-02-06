@@ -10,7 +10,7 @@ hidden: false
 draft: false
 ---
 
-# **Update!!**
+# **Update!! 2025-02-06**
 [BTA! is now being added to PojavLauncher as a first party option](https://github.com/PojavLauncherTeam/PojavLauncher/compare/v3_openjdk...feat/bta_support). This means that you will now be able to simply press "Create 'Better than Adventure!' Profile" and choose your version. Pojav will now be compatible with the post v7.3 versions of BTA! as well. If you're interested in playing BTA! on Pojav you should either wait for the newest version to release, or build the feat/bta\_support branch yourself. The below is kept for archival reasons, but using the integrated functionality is strongly recommended once BTA support comes to the public release.
 
 
