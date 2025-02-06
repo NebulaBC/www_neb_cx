@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on NebulaBC</title><link>https://www.neb.cx/post/</link><description>Recent content in Posts on NebulaBC</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2024 16:34:42 +0000</lastBuildDate><atom:link href="https://www.neb.cx/post/index.xml" rel="self" type="application/rss+xml"/><item><title>BTA 7.x on PojavLauncher</title><link>https://www.neb.cx/p/bta-on-pojavlauncher/</link><pubDate>Fri, 29 Nov 2024 16:34:42 +0000</pubDate><guid>https://www.neb.cx/p/bta-on-pojavlauncher/</guid><description>&lt;img src="https://www.neb.cx/p/bta-on-pojavlauncher/pojav.png" alt="Featured image of post BTA 7.x on PojavLauncher" />&lt;h1 id="update-2025-02-06">&lt;strong>Update!! 2025-02-06&lt;/strong>
+&lt;/h1>&lt;p>&lt;a class="link" href="https://github.com/PojavLauncherTeam/PojavLauncher/compare/v3_openjdk...feat/bta_support" target="_blank" rel="noopener"
+>BTA! is now being added to PojavLauncher as a first party option&lt;/a>. This means that you will now be able to simply press &amp;ldquo;Create &amp;lsquo;Better than Adventure!&amp;rsquo; Profile&amp;rdquo; and choose your version. Pojav will now be compatible with the post v7.3 versions of BTA! as well. If you&amp;rsquo;re interested in playing BTA! on Pojav you should either wait for the newest version to release, or build the feat/bta_support branch yourself. The below is kept for archival reasons, but using the integrated functionality is strongly recommended once BTA support comes to the public release.&lt;/p>
+&lt;hr>
+&lt;h1 id="getting-started">Getting started
+&lt;/h1>&lt;p>If you already have PojavLauncher, you can skip to # Adding BTA to PojavLauncher.&lt;/p>
+&lt;p>PojavLauncher is a Minecraft: Java Edition launcher made for mobile devices, it supports multiple platforms including iOS and Android. Pojav is also an Open-Source project.&lt;/p>
+&lt;p>Pojav is available for Android through the Play Store or you can build from source. If you’re on the other side of the mobile phone market and use an iPhone or another iOS device like an iPad, you can install PojavLauncher from AltStore using one of their trusted repos. If you don’t have a computer to refresh with once per 7 days, you can instead set up SideStore, though I won’t go in-depth about either of these options in this guide, because there are already many pre-existing guides to iOS side-loading.&lt;/p>
+&lt;p>After installing, you should be all ready to run Minecraft on Android. On iOS you will need one more step.&lt;/p>
+&lt;p>Once you’ve obtained Pojav, you will be required to use JIT if you’re on iOS, this is to let the app run faster than stock iOS apps. For this you will either need to go into the AltStore menu on your PC and click “Enable JIT” &amp;gt; (Your devices name) and then select PojavLauncher, or you can go into the AltStore app, go to “My Apps” and long press the app until you see an “Enable JIT” option. This second method should work with SideStore too, without a computer required.
+You are also able to use a JitStreamer server, and while more convenient on AltStore, this has largely gone out of fashion (due to the maintainer leaving for a 2 year missions trip), so you will need to find a way to run your own.&lt;/p>
+&lt;h1 id="adding-bta-to-pojavlauncher">Adding BTA to PojavLauncher
+&lt;/h1>&lt;p>For this install guide you will need a pre-built BTA instance for Pojav. This uses the same folder/zip regardless of platform.
+This section will be updated with new BTA releases on a regular basis.&lt;/p>
+&lt;!-- NO LONGER COMPATIBLE [Download 7.3 Pre-1](https://files.catbox.moe/pafsuq.zip) (Latest) -->
+&lt;p>&lt;a class="link" href="https://files.catbox.moe/wt9ycx.zip" target="_blank" rel="noopener"
+>Download 7.2_01&lt;/a>&lt;br>
+&lt;a class="link" href="https://files.catbox.moe/igo2ib.zip" target="_blank" rel="noopener"
+>Download 1.7.7.0_02&lt;/a>&lt;br>
+&lt;a class="link" href="https://files.catbox.moe/hedzs5.zip" target="_blank" rel="noopener"
+>Download 1.7.7.0_01&lt;/a>&lt;br>
+&lt;a class="link" href="https://files.catbox.moe/e0zu1a.zip" target="_blank" rel="noopener"
+>Download 1.7.7.0&lt;/a>&lt;/p>
+&lt;p>Once you’ve downloaded your desired version’s instance, you need to move the zip into your versions folder and unpack it.&lt;/p>
+&lt;p>To install on Android:&lt;/p>
+&lt;pre>&lt;code>Verify you have ran the game at least once (any version will do)
+Open your Files app
+Click “PojavLauncher” on the left bar
+Open the “.minecraft” folder
+Go into “versions”
+This is where the .zip file needs to go. After you move the zip file in, unpack it and it should create a folder that looks something like “BTA 1.7.7.x_x”.
+Delete the .zip
+Go back into Pojav and select your desired BTA version under your default profile’s settings.
+&lt;/code>&lt;/pre>
+&lt;p>To install on iOS:&lt;/p>
+&lt;pre>&lt;code>Verify you have ran the game at least once (any version will do)
+Open your Files app
+Select “On My iPhone”
+Open the “PojavLauncher” folder
+Navigate to “instances” -&amp;gt; “default” -&amp;gt; “versions”
+This is where the .zip file needs to go. After you move the zip file in, unpack it and it should create a folder that looks something like “BTA 1.7.7.x_x”.
+Delete the .zip
+Go back into Pojav and select your desired BTA version under the version selector at the bottom (it’s listed in the “Installed” tab).
+&lt;/code>&lt;/pre>
+&lt;h1 id="notes">Notes
+&lt;/h1>&lt;p>This post is migrated from my old blog (albeit with a newer download). I have not used Pojav for at least a year and have simply verified that the new version will launch. I intend to do more work supporting Pojav, but I cannot do this by myself since I am not a user. Please report any issues you experience, or any inconsistencies in this dated install guide to me. My Discord profile is &lt;code>nebulabc&lt;/code> and my email is &lt;code>neb@neb.cx&lt;/code>&lt;/p></description></item><item><title>GitHub pages... Should I get pro?</title><link>https://www.neb.cx/p/i-hate-github-but-it-feels-so-good/</link><pubDate>Tue, 05 Mar 2024 18:22:00 +0000</pubDate><guid>https://www.neb.cx/p/i-hate-github-but-it-feels-so-good/</guid><description>&lt;p>Once upon a time my blog page was just a &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a> static site&amp;hellip; wait, it still is. Well, either way, it was just running on a VPS and I just edited it through SSH+Vim. Now after my stuff has been mixed around, it&amp;rsquo;s running on GitHub pages. It&amp;rsquo;s been a very nice setup, since I can edit from any editor on any PC and push to GitHub with an automatic rebuild. I love this workflow, besides one slight issue.&lt;/p>
+&lt;p>I use a lot of drafts. Every post I make for a blog is going to have a draft, and may be written over multiple days. This git setup means that I am stuck either immortalizing my drafts in my git repo, or I have to stick to editing on one computer. Neither of those are good choices for me, so I&amp;rsquo;ve been thinking of ways I can keep this workflow but make my repo private. Out of the options I&amp;rsquo;ve reviewed, I could:&lt;br>
+a) Fork over $4 a month to GitHub for pro - This is not my ideal solution, I don&amp;rsquo;t like using GitHub at all, and want to pay them money even less regardless of if they let me make a private repo with GitHub pages.&lt;br>
+b) I could set up a git repo on my server, and put it right in my NGINX site path. I could then make a cron job to rebuild it - This would probably be the most practical solution, that said, I&amp;rsquo;m not entirely focused with practical in this case. I like having a site that is hosted, and I am willing to pay a few dollars to have my site update right away and have a generally better experience.&lt;br>
+and c) The last option I&amp;rsquo;ve been thinking of is purchasing a &lt;a class="link" href="https://sourcehut.org/" target="_blank" rel="noopener"
+>SourceHut&lt;/a> account and trying to migrate my blog to SourceHut&amp;rsquo;s pages/CI system - This is a very tempting option for me. SourceHut is a git platform built by &lt;a class="link" href="https://drewdevault.com/" target="_blank" rel="noopener"
+>Drew DeVault&lt;/a> and seems much more ethical than GitHub&amp;hellip; Now, I &lt;em>do already&lt;/em> run my own git server, and have for over two years. Although I&amp;rsquo;ve quite enjoyed that and it &lt;em>has&lt;/em> been a better solution than GitHub, I think that maybe SourceHut is worth a shot, especially since it includes a CI unlike Gitea/Forgejo. If it can properly build and serve my Hugo page, I will be content.&lt;/p>
+&lt;p>There may be other solutions that I can not think of, and there may be other software that I can self-host. If this is the case, and you can think of something that I should try, shoot me an email (editing: I actually don&amp;rsquo;t have an email server up right now. My discord is &lt;code>nebulabc&lt;/code>). I&amp;rsquo;d love to hear what&amp;rsquo;s out there, and there might be something right in-front of my nose. For now I&amp;rsquo;m going to be trying out SourceHut to see if it can do the job for me, if it can I &lt;em>may&lt;/em> consider moving my git content over, or at least mirroring my repos. SourceHut&amp;rsquo;s takes on a traditional git platform (like not including client side JS) are very interesting to me, but if anyone has any opinions on the platform, feel free to speak your voice. I will be doing more research before I settle on a &amp;ldquo;forever&amp;rdquo; host.&lt;/p></description></item><item><title>100 days to offload</title><link>https://www.neb.cx/p/starting-100-days-to-offload/</link><pubDate>Sun, 03 Mar 2024 03:44:51 +0000</pubDate><guid>https://www.neb.cx/p/starting-100-days-to-offload/</guid><description>&lt;p>#100DaysToOffload is a novel challenge for bloggers, created by &lt;a class="link" href="https://kevquirk.com" target="_blank" rel="noopener"
+>Kev Quirk&lt;/a>, in which you try to make 100 blog posts within a year. This is quite difficult, but I have an idea that it may be the push I need for me to actually keep this blog active. I think it might help with my writing skills too.&lt;/p>
+&lt;p>A while back I was browsing Mastodon and ran into 100 days to offload. I thought that it looked quite interesting, so I bookmarked it and left it dormant. Just recently I was going through all of my bookmarks and rediscovered it. Now seeing that it still seems worthwhile to me, I&amp;rsquo;m going to give it a shot this time.&lt;/p>
+&lt;p>If you read my post &lt;a class="link" href="https://www.neb.cx/p/new-blog/" target="_blank" rel="noopener"
+>3/2/24 - What happened to the old neb.cx?&lt;/a>, you&amp;rsquo;d know that I had a technical disaster and lost my entire website and blog along with it. I think this may actually end up being an opportunity to review what software I use, and how I use it. For now, this will likely be the topic of my posts.&lt;/p>
+&lt;p>I need a lot of work done to get my websites and infrastructure back to a spot that I am content with, so hopefully I can manage to take this blog (and you, reader) along for the ride.&lt;/p></description></item><item><title>What happened to the old neb.cx?</title><link>https://www.neb.cx/p/new-blog/</link><pubDate>Sat, 02 Mar 2024 16:34:42 +0000</pubDate><guid>https://www.neb.cx/p/new-blog/</guid><description>&lt;img src="https://www.neb.cx/p/new-blog/cover.png" alt="Featured image of post What happened to the old neb.cx?" />&lt;h2 id="my-data-is-gone">My data is gone
+&lt;/h2>&lt;p>On Wednesday, the 28th, I sat down at my computer for a bit of peaceful work on a personal project of mine. All was going well when I went to fire off a search on my personal SearXNG instance and was met by a browser error. I ignored it for a bit, assuming that it was just a bug and would recover. It did not.&lt;/p>
+&lt;p>Once I was at a good pausing point in my work, I went to SSH into my server to restart SearX. Huh, that&amp;rsquo;s odd. I couldn&amp;rsquo;t. This isn&amp;rsquo;t the oddest thing ever; the VM in question only had a few gigs of RAM, and it wasn&amp;rsquo;t the strangest thing for it to freeze up, though it hadn&amp;rsquo;t happened in quite a while. I decided to log into my web KVM interface to see if I could log in, so I went to cloud.oracle.com, put in my credentials, and was met by a page full of errors. What I came to find out through talking to support is that Oracle Cloud deleted my account and all of my data for&amp;hellip; no reason? None that they&amp;rsquo;re willing to tell me at least. Thankfully, all of my data was not stored on Oracle; part of it is stored on OVH and another part on Azure. The largest problem is that even my cloud infrastructure on other platforms didn&amp;rsquo;t work anymore since Oracle was the gateway for everything.&lt;/p>
+&lt;h2 id="what-did-i-lose">What did I lose?
+&lt;/h2>&lt;p>In total, I lost:&lt;/p>
+&lt;ul>
+&lt;li>All of my websites that were associated with the NebulaBC username.&lt;/li>
+&lt;li>All of the data from my git server that was not synced locally.&lt;/li>
+&lt;li>A few Minecraft and other assorted game servers, a portion of which were not backed up anywhere,.&lt;/li>
+&lt;li>The database for my image server (the images are stored in S3).&lt;/li>
+&lt;li>Most of my hosted services.&lt;/li>
+&lt;li>My email server.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>This is a common tale of putting all of your eggs in one basket. My data was fairly distributed between servers and even regions. This was not enough. What I really needed was data that was kept away from Oracle, and I&amp;rsquo;d personally say that my biggest mistake was using Oracle Cloud in the first place. They seemed like a decent platform at first, but it was a mistake to ever trust them in any capacity with my data. It is a mistake that I will not make again. Next time someone I know is looking for a cloud host, they will not even consider Oracle. I most certainly will not recommend Oracle in a professional capacity either. Their support was awful, and they deleted every last byte of my data without so much as an email first.&lt;/p>
+&lt;p>I&amp;rsquo;ve now moved to a smaller host that is run by real people that I can email or call if there is an issue. I will also be keeping multiple full disk backups of my servers locally from now on to avoid this in the future.&lt;/p></description></item></channel></rss>
