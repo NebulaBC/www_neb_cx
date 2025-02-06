@@ -2,7 +2,7 @@
 title: "BTA 7.x on PojavLauncher"
 description: Running BTA on mobile devices
 slug: bta-on-pojavlauncher
-cover: pojav.png
+image: pojav.png
 tags:
     - BTA
 date: 2024-11-29T16:34:42Z
